@@ -1,0 +1,15 @@
+data:
+  input: "./data/test.txt"
+  output_path: "./data/results/"
+
+options:
+  normalization: ["zscore", "softmax", "l2"]
+  word_embs:
+    - word2vec-google-news-300
+    - glove.840B.300d
+    - mxm-faruqui-0
+    - mxm-cv-0
+    - wordcount
+  alpha: 0.5
+  apply_idf: true
+  dictionay: none

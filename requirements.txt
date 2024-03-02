@@ -1,0 +1,4 @@
+replicate==0.24.0
+pyyaml==6.0.1
+tqdm==4.66.2
+requests==2.31.0

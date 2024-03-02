@@ -1,0 +1,3 @@
+this is test text file.
+the replicate repo expect one document per line, which means you also have to include line breaks into a line
+otherwise, it will recognize a document as multiple documents.
