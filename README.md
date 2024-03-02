@@ -6,8 +6,8 @@ it calls the [lyrics value estimation](https://replicate.com/eldrin/text-concept
 ## Installation
 
 ```bash
-git clone {this repo name}
-cd {this repo name}
+git clone https://github.com/eldrin/lyrics-values-estimators-replicate-call.git
+cd lyrics-values-estimators-replicate-call
 python3 -m venv lyric_value_replicate_call
 source lyric_value_replicate_call/bin/activate
 python -m pip install -r requirements.txt
