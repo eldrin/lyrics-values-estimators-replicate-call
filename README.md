@@ -29,6 +29,7 @@ python main.py config_example.yml
 
 Currently, the script only loop through the permutation of `normalization` and `word_embs` options. It is possible to extend it to any of other parameters (i.e., `alpha`, `apply_idf`, etc.) too. It might be added in the future upon feature request.
 
+Also, **input text should not include comma**. This is a known issue, and will be fixed in the next update.
 
 ## How to improve it
 
